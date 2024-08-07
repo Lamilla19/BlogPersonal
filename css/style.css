@@ -9,36 +9,41 @@ body
 }
 
 #cabecera
-{
-    background: #33A;
+{  
+    display: flex;
+    background: rgb(210, 0, 110);
     box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.5);
     color: white;
     font-weight: bold;
-    margin: 0;
+    margin: 1px;
     padding: 0.5em;
 }
 
 #cabecera #tagline
 {
     padding: 0 0 0 1em;
-    font-weight: normal;
     font-size: 0.8em;
+    transform: translateY(40px);
+    font-weight: bold;
 }
 
 #container
 {
-    width: 70%;
+    width: 90%;
     padding: 0;
     text-align: left;
-    border: 1px solid #DDD;
+    border: 1px solid #f45050;
     margin: 0 auto;
 }
 
 #container h1
 {
-    font-size: 20px;
+    font-size: 30px;
+    color: #f9dede;
 }
 #post
 {
     padding: 1em;
+    border: 1px solid #f9dbdb;
+    color: rgb(4, 4, 95);
 }
